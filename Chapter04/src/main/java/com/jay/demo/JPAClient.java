@@ -39,8 +39,8 @@ public class JPAClient {
 */
         } catch (Exception e){
             e.printStackTrace();
-            // Transaction rollback
-            // tx.rollback();
+             //Transaction rollback;
+             tx.rollback();
         } finally {
             em.close();
             emf.close();

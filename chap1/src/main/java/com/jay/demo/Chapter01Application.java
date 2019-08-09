@@ -8,6 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages = {"com.jay.demo", "com.jay.other"})
+
 public class Chapter01Application {
 
     public static void main(String[] args) {

@@ -8,11 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import javax.swing.*;
 import java.util.Date;
-import java.util.Optional;
-
-import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -24,7 +20,7 @@ public class BoardRepositoryTest {
     public void testInsertBoard() {
         Board board = new Board();
         board.setTitle("첫 번째 게시글");
-        board.setWriter("테스터");
+        //board.setWriter("테스터");
         board.setContent("잘 등록되나요?");
         board.setCreateDate(new Date());
         board.setCnt(0L);
