@@ -1,0 +1,8 @@
+com/jay/persistence/DynamicBoardRepository.class
+com/jay/domain/Board.class
+com/jay/persistence/MemberRepository.class
+com/jay/persistence/BoardRepository.class
+com/jay/DemoApplication.class
+com/jay/domain/Member.class
+com/jay/domain/QBoard.class
+com/jay/domain/QMember.class
